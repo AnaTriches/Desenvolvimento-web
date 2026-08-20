@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Exemplo de CSS interno -->
+<style>
+    #interno {
+        height: 100px;
+        width: 400px;
+        background-color: crimson;
+        color: white;
+    }
+</style>
+
+<body>
+    <main>
+        <!-- Exemplo de CSS Inline -->
+        <section style="height: 100px; width: 400px; background-color: purple;">
+            <h1 style="color: white;">Exemplo Inline</h1>
+        </section>
+        <section id="interno">
+            <h1>Exemplo de CSS interno</h1>
+        </section>
+        <section id="externo">
+            <h1>Exemplo de CSS Externo</h1>
+            <div>
+                <h1>Exemplo de CSS Externo 2</h1>
+                <span>
+                    <h1>Exemplo de CSS Externo 3</h1>
+                </span>
+                <h1>Exemplo de CSS Externo 4</h1>
+                <p>Exemplo 1 </p>
+                <span>
+                    <p>Exemplo 2 </p>
+                </span>
+            </div>
+            <button class="btn">
+                Clique aqui
+            </button>
+        </section>
+    </main>
+
+</body>
+
+</html>

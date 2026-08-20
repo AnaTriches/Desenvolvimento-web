@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#externo {
+    height: 100px;
+    width: 400px;
+    background-color: rgb(255, 177, 193);
+    color: rgb(3, 96, 114);
+}
+
+main {
+    height: 100vh;
+    background-color: rgb(84, 54, 54);
+}
+
+div > h1 {
+    color: white;
+}
+
+span + h1 {
+    color: red;
+}
+
+h1 ~ p {
+    color: rgb(116, 3, 124);
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 88px;
+    padding: 10px;
+    background-color: rgb(255, 102, 102);
+    border-radius: 12px;
+    border-width: 0;
+}
+
+.btn :hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
