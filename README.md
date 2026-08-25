@@ -1,69 +1,39 @@
-# Título Principal
+# Desenvolvimento Web
 
-## Título Secundário (h2)
-### Título Terceario (h3)
-#### Título Terceario (h4)
-##### Título Terceario (h5)
-###### Título Terceario (h6)
+Repositório criado para organizar as atividades, exemplos e conteúdos desenvolvidos durante as aulas de **Desenvolvimento Web**.
 
----
+## 📚 Descrição 
+Este repositório reúne os materiais e atividades práticas realizadas durante a disciplina, permitindo acompanhar a evolução dos conteúdos aprendidos ao longo das aulas.
 
-Apenas um texto de teste para apresentar o **Markdown**. Se colocarmos apenas um asterisco (*) irá ficar em *itálico*.
+Entre os conteúdos trabalhados estão conceitos de HTML, Markdown e ferramentas relacionadas ao desenvolvimento web e ao versionamento de projetos.
 
-> Citação interessante, textos aleatórios só para mostrar o funciomento.
+## 🚀 Como Instalar
+1. Faça o download ou clone o repositório:
+git clone https://github.com/AnaTriches/Desenvolvimento-web.git
+2. Entre na pasta do projeto:
+cd Desenvolvimento-web
+3. Abra a pasta no editor de código de sua preferência.
 
----
+> Não é necessário instalar dependências para acessar os arquivos das primeiras atividades.
 
-### Lista bullet points
- 
-Ingredientes:
+## 💻 Como Usar
+ O repositório está organizado por aulas e atividades.
 
-* 3 Ovos
-* Xícara de leite 
+Por exemplo, para acessar a primeira aula:
 
-    * Fermento
-    
-1. Levantar pela manhã
-2. Arrumar a cama
-3. Tomar café
+PrimeiroBimestre
+* Aulas
+* Aula1
 
-To-do Projeto
+Dentro da pasta da aula estão os arquivos utilizados durante a atividade.
 
-- [x] Configurar ambiente de desenvolvimento 
-- [x] Criar landing page inicial
-- [ ] Integrar com API pagamentos 
+Também é possível abrir arquivos HTML diretamente no navegador para visualizar as páginas desenvolvidas.
 
----
+## 🛠️ Tecnologias
+* HTML
+* Markdown
 
-Tabelas
+## 🔗 Primeiro arquivo HTML
+Acesse o primeiro arquivo HTML desenvolvido no projeto:
 
-| Tecnologia | Performance |
-|      -     |      -      |
-|Spring boot |    LENTOO   |
-|  Quartkus  |  Jo soi la  |
-velocitad |
-
----
-
-Links
-Link da documentação do [Quarkus](https://pt.quarkus.io/)
-
-Imagens 
-![Gato](https://chemitec.com.br/wp-content/uploads/2025/04/como-cuidar-de-gatos-filhotes.jpg)
-
-Blocos de código
-
-```java
-String nome = "Ana_Triches";
-```
-```json
-{
-    "nome:" "Ana_Triches";
-    "idade": "20"
-}
-```
-
-Nome da aplicação:
-`feira-facil-api`
-
-Primeiro arquivo html: [link](./PrimeiroBimestre/Aulas/Aula1/index.html)
+[Primeiro arquivo HTML](./PrimeiroBimestre/Aulas/Aula1/index.html)
