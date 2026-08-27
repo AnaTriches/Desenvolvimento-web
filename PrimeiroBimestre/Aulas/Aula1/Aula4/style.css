@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container {
+    height: 100vh;
+}
+
+.relativo {
+    width: 200px;
+    max-width: 400px;
+    height: 200px;
+    background: rgb(255, 121, 190);
+    position: relative;
+    left: 40%;
+    /*z-index: 1;*/
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    margin-bottom: 16px;
+}
+
+.absoluto {
+    width: 200px;
+    height: 200px;
+    background: rgb(213, 88, 255);
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 40%;
+}
+
+.fixo {
+    width: 100px;
+    height: 100px;
+    background: rgb(124, 251, 255);
+    position: fixed;
+    left: 88%;
+    bottom: 10%;
+    transition: 1s ease;
+}
+
+.fixo:hover{
+    border-radius: 50%;
+}
+
+.block{
+    background-color: rgb(34, 255, 34);
+    height: 100px;
+}
+
+.inline{
+    background-color: darkmagenta;
+    width: 200px;
+    height: 200px;
+}
+
+.inline-block{
+    background-color: darkmagenta;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.texto h1{
+font-size: 32px;
+}
+
+.texto{
+    font-size: 2rem;
+}

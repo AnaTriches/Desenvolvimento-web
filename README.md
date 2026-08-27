@@ -37,3 +37,4 @@ Também é possível abrir arquivos HTML diretamente no navegador para visualiza
 Acesse o primeiro arquivo HTML desenvolvido no projeto:
 
 [Primeiro arquivo HTML](./PrimeiroBimestre/Aulas/Aula1/index.html)
+
