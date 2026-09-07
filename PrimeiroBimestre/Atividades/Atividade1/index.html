@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria de gatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="cabecalho">
+            <h1>CatCafe</h1>
+
+            <nav>
+                <a href="">Home</a>
+                <a href="">Sobre</a>
+                <a href="">Contato</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <aside>
+        <h2>Novidades!</h2>
+
+        <div class="novidades">
+
+            <article>
+                <h3>🧁 Catcake</h3>
+
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAadrieY0AI5DtnYrIfzHMCJOlXXmk9z68Sv_GSQ01yKqIqmKqZZ6qNRo&s=10"
+                        alt="Cupcake em formato de gatinho">
+
+                    <figcaption>Deliciosos cupcakes de gatinhos!</figcaption>
+                </figure>
+            </article>
+
+            <article>
+                <h3>☕ Latte Miauchiato</h3>
+
+                <figure>
+                    <img src="https://i.pinimg.com/736x/7c/01/57/7c015741e71e72ff96eef20140b0a3f2.jpg"
+                        alt="Café com desenho de gatinho">
+
+                    <figcaption>Um Latte de gatinho!</figcaption>
+                </figure>
+            </article>
+
+        </div>
+    </aside>
+    <main>
+        <section class="sobre">
+            <h2>Sobre a cafeteria</h2>
+
+            <p>
+                A nossa cafeteria foi criada para unir duas coisas que muita gente ama: café e gatos. A ideia é oferecer
+                um ambiente aconchegante, tranquilo e divertido, onde os clientes podem aproveitar cafés, doces e
+                lanches enquanto passam um tempo na companhia dos gatinhos.
+            </p>
+
+            <p>
+                O espaço foi pensado para proporcionar uma experiência diferente de uma cafeteria tradicional, com uma
+                decoração inspirada no universo felino e áreas confortáveis para relaxar, conversar com amigos ou
+                simplesmente aproveitar o momento.
+            </p>
+
+            <p>
+                Além de servir produtos de qualidade, a cafeteria também busca incentivar o cuidado e o respeito pelos
+                animais, criando um ambiente seguro tanto para os visitantes quanto para os gatos.
+            </p>
+            <p>
+                Mais do que tomar um café, queremos que cada visita seja um momento especial, cheio de carinho, boas
+                lembranças e, claro, muitos ronronados. 🐾☕
+            </p>
+
+        </section>
+        <section class="gatinhos">
+            <h2>Conheça nossos gatinhos</h2>
+
+            <article>
+                <h3> Caroço </h3>
+                <img src="imagens/Caroço.jpeg" alt="Caroço">
+                <p>
+                    Caroço é um gatinho tranquilo que adora ficar perto dos clientes
+                    enquanto eles tomam café.
+                </p>
+            </article>
+
+            <article>
+                <h3>Marie</h3>
+                <img src="imagens/Marie.jpeg" alt="Marie">
+                <p>
+                    Marie é carinhosa e adora ganhar carinho de todos na cafeteria.
+                </p>
+            </article>
+
+            <article>
+                <h3>Suspiro</h3>
+                <img src="imagens/Suspiro.jpeg" alt="Suspiro">
+                <p>
+                    Suspiro é brincalhão e está sempre procurando alguém para brincar.
+                </p>
+            </article>
+        </section>
+        <section class="cardapio">
+            <h2>Nosso cardápio</h2>
+
+            <article>
+                <h3>☕ Cafés</h3>
+                <p>Café expresso, cappuccino, café com leite e chocolate quente.</p>
+            </article>
+
+            <article>
+                <h3>🧁 Doces</h3>
+                <p>Cupcakes, cookies, bolos e outros doces especiais.</p>
+            </article>
+
+            <article>
+                <h3>🥪 Lanches</h3>
+                <p>Sanduíches e opções para acompanhar seu café.</p>
+            </article>
+        </section>
+        <section class="video">
+            <h2>Vídeo sobre a cafeteria</h2>
+
+            <p>
+                Quer conhecer mais sobre nossa cafeteria?
+            </p>
+
+            <a href="https://www.youtube.com/watch?v=SEU_VIDEO_AQUI" target="_blank">
+                Assista ao vídeo no YouTube
+            </a>
+        </section>
+        <section class="contato">
+            <h2>Entre em contato</h2>
+
+            <p>📍 Rua dos Gatinhos, 123 - Centro</p>
+            <p>📞 (45) 99999-9999</p>
+            <p>📧 contato@catcafe.com</p>
+            <p>🕐 Segunda a sábado, das 9h às 19h</p>
+        </section>
+        <section class="formulario">
+            <fieldset>
+                <legend>Fale com a CatCafe 🐱</legend>
+
+                <h2>Entre em contato conosco!</h2>
+
+                <form>
+
+                    <label for="nome">Informe seu nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required maxlength="50">
+
+                    <label for="email">Informe seu e-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+
+                    <label for="telefone">Informe seu telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(45) 99999-9999">
+
+                    <label for="data">Data da visita:</label>
+                    <input type="date" id="data" name="data">
+
+                    <label for="mensagem">Deixe uma mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." rows="5"
+                        cols="30"></textarea>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 CatCafe - Uma cafeteria cheia de café e ronronados 🐾☕</p>
+    </footer>
+</body>
+
+</html>

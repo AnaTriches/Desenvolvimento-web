@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    text-align: center;
+    background-color: #f3dfc1;
+    padding: 20px;
+}
+
+.cabecalho h1 {
+    margin-bottom: 10px;
+    color: #6b4226;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d47f8c;
+}
+
+
+/* NOVIDADES */
+
+aside {
+    background-color: #f3dfc1;
+    padding: 30px;
+    text-align: center;
+}
+
+aside h2 {
+    color: #6b4226;
+    margin-bottom: 20px;
+}
+
+.novidades {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.novidades article {
+    background-color: #fffaf3;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.novidades h3 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+.novidades img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.novidades figcaption {
+    margin-top: 10px;
+    color: #6b5143;
+}
+
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+
+/* SOBRE */
+
+.sobre {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fffaf3;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.sobre h2 {
+    text-align: center;
+    color: #6b4226;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    color: #6b5143;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+/* GATINHOS */
+
+.gatinhos {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.gatinhos h2 {
+    width: 100%;
+    color: #6b4226;
+    margin-bottom: 25px;
+}
+
+.gatinhos article {
+    width: 280px;
+    padding: 20px;
+    background-color: #fffaf3;
+    border: solid 2px #f3dfc1;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.gatinhos article h3 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+.gatinhos article img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.gatinhos article p {
+    color: #6b5143;
+    line-height: 1.5;
+}
+
+
+/* CARDÁPIO */
+
+.cardapio {
+    text-align: center;
+}
+
+.cardapio h2 {
+    color: #6b4226;
+    margin-bottom: 25px;
+}
+
+.cardapio article {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    min-height: 130px;
+    margin: 10px;
+    padding: 20px;
+
+    background-color: #fffaf3;
+    border: solid 2px #f3dfc1;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.cardapio article h3 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+.cardapio article p {
+    color: #6b5143;
+    line-height: 1.5;
+}
+
+
+/* CONTATO */
+
+.contato {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background-color: #fffaf3;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+
+    text-align: center;
+}
+
+.contato h2 {
+    color: #6b4226;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    color: #6b5143;
+    margin-bottom: 12px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #6b4226;
+    color: #fff8f0;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .novidades article {
+        width: 45%;
+    }
+
+    .gatinhos article {
+        width: 45%;
+    }
+
+    .cardapio article {
+        width: 40%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .novidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .novidades article {
+        width: 90%;
+    }
+
+    .gatinhos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gatinhos article {
+        width: 90%;
+    }
+
+    .cardapio article {
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .sobre {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .contato {
+        width: 90%;
+        padding: 20px;
+    }
+
+
+    @media (max-width: 600px) {
+
+        .video iframe {
+            height: 250px;
+        }
+
+    }
+}
+
+.video {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+
+    background-color: #fffaf3;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.video h2 {
+    color: #6b4226;
+    margin-bottom: 15px;
+}
+
+.video p {
+    color: #6b5143;
+    margin-bottom: 20px;
+}
+
+.video a {
+    color: #8b5e3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video a:hover {
+    color: #d47f8c;
+}
+
+.formulario {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+.formulario fieldset {
+    padding: 30px;
+    border: solid 2px #f3dfc1;
+    border-radius: 20px;
+    background-color: #fffaf3;
+    box-shadow: 0 4px 10px rgba(107, 66, 38, 0.15);
+}
+
+.formulario legend {
+    padding: 5px 15px;
+    color: #6b4226;
+    font-weight: bold;
+}
+
+.formulario h2 {
+    text-align: center;
+    color: #6b4226;
+    margin-bottom: 25px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label {
+    color: #6b4226;
+    font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 2px #f3dfc1;
+    border-radius: 10px;
+    background-color: #fff8f0;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #d47f8c;
+    color: #fff8f0;
+    border: none;
+    font-weight: bold;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #8b5e3c;
+}
